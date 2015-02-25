@@ -13,24 +13,27 @@ public partial class _Default : System.Web.UI.Page
     {
         if (!IsPostBack)
         {
-            var artists = from Artist in showentities.Artists
+            var artist = from Artist in showentities.Artists
                           orderby Artist.ArtistName
                           select new { Artist.ArtistName, Artist.ArtistKey };
-            DropDownList1.DataSource = artists.ToList();
+            DropDownList1.DataSource = artist.ToList();
             DropDownList1.DataTextField = "ArtistName";
             DropDownList1.DataValueField = "ArtistKey";
+             
             DropDownList1.DataBind();
         }
         
     }
     protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
     {
-        var show = from Show in showentities.Shows
-                  from Artist in showentities.Artists
-                  from ShowDetail in showentities.ShowDetails
-                  where Artist.ArtistName == DropDownList1.SelectedItem.Text
-                     select new {Show.ShowName, ShowDetail.ShowDetailArtistStartTime };
-        GridView1.DataSource = show.ToList();
+        var shows = from Show in showentities.Shows
+                    from a in showentities.Artists
+                    from ShowDetail in showentities.ShowDetails
+                    where a.ArtistName == DropDownList1.SelectedItem.Text
+                    where ShowDetail.ArtistKey == a.ArtistKey
+                    where ShowDetail.ShowKey == Show.ShowKey
+                    select new { Show.ShowName, ShowDetail.ShowDetailArtistStartTime, a.ArtistName };
+        GridView1.DataSource = shows.ToList();
         GridView1.DataBind();
 
 
