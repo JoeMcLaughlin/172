@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="19b4676a81d541ddb8c6817806b6eba3" Name="Diagram1">
+        <EntityTypeShape EntityType="BookReviewDbModel1.CheckinLog" Width="1.5" PointX="5.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BookReviewDbModel1.Reviewer" Width="2.375" PointX="1.25" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="BookReviewDbModel1.FK_ReviewerCheckIn" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

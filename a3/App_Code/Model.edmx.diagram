@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b026a32d0cbb4777980e9757c4e5cd48" Name="Diagram1">
+        <EntityTypeShape EntityType="ShowTrackerModel.FanLogin" Width="2.375" PointX="0.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShowTrackerModel.LoginHistory" Width="1.5" PointX="3.25" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShowTrackerModel.Fan" Width="1.5" PointX="5.375" PointY="1.125" />
+        <AssociationConnector Association="ShowTrackerModel.FK__FanLogin__FanKey__300424B4" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
