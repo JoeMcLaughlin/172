@@ -1,0 +1,22 @@
+﻿[ ] -- For this assignment we are going to create a couple WCF (Windows Communication Foundation) services.
+		[ ] -- WCF # 1
+		[ ] -- WCF # 2 
+
+[ ] -- These services will use ADO Entities. 
+		[ ] -- Add ADO to WCF # 1
+		[ ] -- Add ADO to WCF # 2
+
+[ ] -- One service will have a method for a Venue to Register and log in. 
+		[ ] -- Add two methods to WCF # 1
+
+[ ] -- It will return the venue's key. 
+		[ ] -- Returns key true
+
+[ ] -- The second service will allow a Venue to add a show and show details. 
+		[ ] -- Allow venue add a show and details in WCF # 2 
+
+[ ] -- If the artist doesn't exist we will add them too.
+		[ ] -- Add artist if they don't exist
+[ ] -- Use the VenueLogin with the password VenueP@ssw0rd
+[ ] -- We will use the IIS Express that is built into Visual Studio.
+
