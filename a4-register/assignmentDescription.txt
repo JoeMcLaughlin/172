@@ -1,16 +1,16 @@
 ﻿[ ] -- For this assignment we are going to create a couple WCF (Windows Communication Foundation) services.
-		[ ] -- WCF # 1
-		[ ] -- WCF # 2 
+		[x] -- WCF # 1 (VenueRegistrationService)
+		[x] -- WCF # 2 
 
 [ ] -- These services will use ADO Entities. 
-		[ ] -- Add ADO to WCF # 1
-		[ ] -- Add ADO to WCF # 2
+		[x] -- Add ADO to WCF # 1 (VenueRegistrationModel)
+		[x] -- Add ADO to WCF # 2
 
 [ ] -- One service will have a method for a Venue to Register and log in. 
-		[ ] -- Add two methods to WCF # 1
+		[x] -- Add two methods to WCF # 1
 
 [ ] -- It will return the venue's key. 
-		[ ] -- Returns key true
+		[x] -- Returns key true
 
 [ ] -- The second service will allow a Venue to add a show and show details. 
 		[ ] -- Allow venue add a show and details in WCF # 2 
