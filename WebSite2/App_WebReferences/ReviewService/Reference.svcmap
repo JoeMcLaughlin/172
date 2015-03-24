@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="a5d4c7e2-ce29-4017-b01c-82d65cc001d2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:5019/NewReviewService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="NewReviewService.xsd" MetadataType="Schema" ID="d1475c97-39a7-4701-b108-f1beec9e91cc" SourceId="1" SourceUrl="http://localhost:5019/NewReviewService.svc?xsd=xsd1" />
+    <MetadataFile FileName="NewReviewService1.xsd" MetadataType="Schema" ID="9f84e4b8-6ec1-4ed1-bf01-3d1132276ee4" SourceId="1" SourceUrl="http://localhost:5019/NewReviewService.svc?xsd=xsd2" />
+    <MetadataFile FileName="NewReviewService2.xsd" MetadataType="Schema" ID="c18be153-819f-49a8-9b08-a28db5bd77c0" SourceId="1" SourceUrl="http://localhost:5019/NewReviewService.svc?xsd=xsd3" />
+    <MetadataFile FileName="NewReviewService.disco" MetadataType="Disco" ID="e5811952-a636-46ef-943d-ab0f865aa500" SourceId="1" SourceUrl="http://localhost:5019/NewReviewService.svc?disco" />
+    <MetadataFile FileName="NewReviewService.wsdl" MetadataType="Wsdl" ID="0e7b979d-35da-40ac-8ff4-413a84784822" SourceId="1" SourceUrl="http://localhost:5019/NewReviewService.svc?wsdl" />
+    <MetadataFile FileName="NewReviewService3.xsd" MetadataType="Schema" ID="f826418d-5b1d-4645-a972-f125c40c6671" SourceId="1" SourceUrl="http://localhost:5019/NewReviewService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

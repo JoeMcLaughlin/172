@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="958fa422-75fc-4a90-a5be-815e4c5d4496" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4659/ReviewerRegistrationService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ReviewerRegistrationService.xsd" MetadataType="Schema" ID="6596fd15-52e4-4188-841b-fe125a9faa68" SourceId="1" SourceUrl="http://localhost:4659/ReviewerRegistrationService.svc?xsd=xsd1" />
+    <MetadataFile FileName="ReviewerRegistrationService.wsdl" MetadataType="Wsdl" ID="4a2ba61d-cf3c-43a3-bc91-aa92d7bbdbc7" SourceId="1" SourceUrl="http://localhost:4659/ReviewerRegistrationService.svc?wsdl" />
+    <MetadataFile FileName="ReviewerRegistrationService.disco" MetadataType="Disco" ID="1755ae79-04f5-4b6c-a46c-fd773f8157a4" SourceId="1" SourceUrl="http://localhost:4659/ReviewerRegistrationService.svc?disco" />
+    <MetadataFile FileName="ReviewerRegistrationService1.xsd" MetadataType="Schema" ID="de3328cf-0f70-447b-8d2e-3ab1638870fc" SourceId="1" SourceUrl="http://localhost:4659/ReviewerRegistrationService.svc?xsd=xsd2" />
+    <MetadataFile FileName="ReviewerRegistrationService2.xsd" MetadataType="Schema" ID="b5e82c5b-9792-4a72-80ad-39a4b9fbb6b5" SourceId="1" SourceUrl="http://localhost:4659/ReviewerRegistrationService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
