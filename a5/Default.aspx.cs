@@ -13,18 +13,18 @@ public partial class _Default : System.Web.UI.Page
     }
     protected void btnLogin_Click(object sender, EventArgs e)
     {
-        
-        ServiceReference1.IReviewerRegistrationService rc = new ServiceReference1.ReviewerRegistrationServiceClient();
-              
-        int id = rc.ReviewerLogin(txtUserName.Text, txtPassword.Text);
-        if (id!=0)
+        venueRegistrationServiceNS.IVenueRegistrationService vs = new venueRegistrationServiceNS.VenueRegistrationServiceClient();
+
+        int id = vs.VenueLogin(txtUserName.Text, txtPassword.Text);
+        if (id != 0)
         {
             Session["id"] = id;
-            Response.Redirect("NewReview.aspx");
+            Response.Redirect("addPage.aspx");
         }
         else
         {
             lblMessage.Text = "Invalid Login";
         }
+
     }
 }
