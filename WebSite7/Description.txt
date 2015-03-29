@@ -1,0 +1,29 @@
+﻿Do what you can with this. I am not going to be strict about the points here. Just do what you can in the time remaining.
+
+This project will review much of what we have learned. You can use elements of previous assignments such as the login. 
+
+We will build the website from the fan's perspective. 
+
+[ ] - We want the fan to be able to: 
+[ ] - register
+[ ] - log in
+
+Once logged in they should be able to:
+[ ] - select genres to follow
+[ ] - select artists to follow 
+Create a WCF service for this.
+
+[ ] - Create a WCF service to allow these searches. 
+[ ] - search for shows by artist or genre or venue. 
+[ ] - Register the services with the web page.
+
+
+Add at least Two elements the we have not discussed in class. These can be controls or something like Master Pages.
+[ ] - #1
+[ ] - #2
+
+
+
+The web site should have a CSS style sheet that styles some of its elements.
+
+I would suggest working with one or more people on this project.

@@ -1,0 +1,53 @@
+﻿You can use elements of previous assignments such as the login. 
+
+/////////////////////////////////
+
+We will build the website from the fan's perspective. 
+[x] - We want the fan to be able to: 
+	[x] - register 
+		[x] - WCF
+			[x] - code
+		[x] - register page
+			[x] - fill in page
+				[x] - code
+
+	[x] - login
+		[x] - WCF
+			[x] - code
+		[x] - login page
+			[x] - fill in page
+				[x] - code
+
+//////////////////////////////////
+
+Once logged in they should be able to:
+[ ] - select [genres || artists] to follow
+	[x] - WCF
+		[x] - code
+	[x] - select/search page
+		[x] - fill in page
+			[x] - code
+Create a WCF service for this.
+
+////////////////////////////////
+
+[ ] - Create a WCF service to allow the following searches. 
+	[ ] - search for shows by [artist || genre || venue].
+ 		[ ] - Create WCF
+			[ ] - build WCF
+
+/////////////////////////////////
+
+[x] - Register the services with the web page.
+ 		
+/////////////////////////////////
+
+
+Add at least Two elements the we have not discussed in class. These can be controls or something like Master Pages.
+[x] - #1 .Attributes
+[x] - #2 CSS Visibility
+
+////////////////////////////////
+
+The web site should have a CSS style sheet that styles some of its elements.
+
